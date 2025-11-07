@@ -15,7 +15,6 @@ const ProjectCard = ({ project, index }) => {
       className={`project-card animate-fade-in-up`}
       style={{ animationDelay: `${index * 0.1}s` }}
     >
-      <ProjectImage title="Pomodoro Timer" image="pomodoro.png" />
 
       <div className="project-card__content">
         <h3 className="project-card__title">{project.title}</h3>

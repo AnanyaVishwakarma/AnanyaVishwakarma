@@ -37,7 +37,7 @@ const Header = ({ activeSection }) => {
     <header className={`header ${isScrolled ? "header-scrolled" : ""}`}>
       <div className="header__container container">
         <div className="header__brand">
-          <span className="header__logo gradient-text">Portfolio</span>
+          <span className="header__logo gradient-text">Ananya Here!</span>
         </div>
 
         <nav className="header__nav">
