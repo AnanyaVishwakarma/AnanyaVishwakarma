@@ -1,0 +1,16 @@
+.about-text__paragraph {
+  font-size: var(--font-size-lg);
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: var(--spacing-6);
+}
+
+.about-text__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .about-text__paragraph {
+    font-size: var(--font-size-base);
+  }
+}

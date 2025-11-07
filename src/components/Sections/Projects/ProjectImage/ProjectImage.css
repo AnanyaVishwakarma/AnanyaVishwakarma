@@ -1,0 +1,35 @@
+.project-image {
+  height: 200px;
+  background: linear-gradient(135deg, rgba(6, 182, 212, 0.2), rgba(139, 92, 246, 0.2));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid var(--border-color);
+  overflow: hidden;
+}
+
+.project-image__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-normal);
+}
+
+.project-image__img:hover {
+  transform: scale(1.05);
+}
+
+.project-image__placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.project-image__icon {
+  width: 64px;
+  height: 64px;
+  color: var(--cyan-primary);
+  opacity: 0.7;
+}

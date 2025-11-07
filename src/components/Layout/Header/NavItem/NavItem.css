@@ -1,0 +1,47 @@
+.nav-item {
+  margin: 0;
+}
+
+.nav-item__link {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  cursor: pointer;
+  transition: color var(--transition-normal);
+  position: relative;
+  padding: var(--spacing-2) 0;
+  text-decoration: none;
+}
+
+.nav-item__link:hover {
+  color: var(--cyan-primary);
+}
+
+.nav-item__link--active {
+  color: var(--cyan-primary);
+}
+
+.nav-item__link--active::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--gradient-primary);
+  border-radius: 1px;
+  animation: slideIn var(--transition-normal) ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    width: 0;
+    left: 50%;
+  }
+  to {
+    width: 100%;
+    left: 0;
+  }
+}

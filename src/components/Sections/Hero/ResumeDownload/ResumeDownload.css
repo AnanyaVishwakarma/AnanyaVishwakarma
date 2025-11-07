@@ -1,0 +1,16 @@
+.hero-buttons {
+  display: flex;
+  gap: var(--spacing-5);
+  justify-content: center;
+  flex-wrap: wrap;
+  animation-delay: 0.8s;
+  animation-fill-mode: both;
+}
+
+@media (max-width: 640px) {
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-4);
+  }
+}

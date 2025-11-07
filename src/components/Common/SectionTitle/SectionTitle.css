@@ -1,0 +1,36 @@
+.section-title {
+  font-weight: 700;
+  margin-bottom: var(--spacing-12);
+  line-height: 1.2;
+}
+
+.section-title--center {
+  text-align: center;
+}
+
+.section-title--left {
+  text-align: left;
+}
+
+.section-title--right {
+  text-align: right;
+}
+
+/* Size variants based on heading level */
+h1.section-title {
+  font-size: clamp(var(--font-size-4xl), 8vw, var(--font-size-6xl));
+}
+
+h2.section-title {
+  font-size: clamp(var(--font-size-3xl), 5vw, var(--font-size-5xl));
+}
+
+h3.section-title {
+  font-size: clamp(var(--font-size-2xl), 4vw, var(--font-size-4xl));
+  margin-bottom: var(--spacing-8);
+}
+
+h4.section-title {
+  font-size: clamp(var(--font-size-xl), 3vw, var(--font-size-3xl));
+  margin-bottom: var(--spacing-6);
+}

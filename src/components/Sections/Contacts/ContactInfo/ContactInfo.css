@@ -1,0 +1,17 @@
+.contact-info {
+  margin-bottom: var(--spacing-10);
+}
+
+.contact-info__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4);
+}
+
+@media (min-width: 640px) {
+  .contact-info__list {
+    flex-direction: row;
+    justify-content: center;
+    gap: var(--spacing-8);
+  }
+}
