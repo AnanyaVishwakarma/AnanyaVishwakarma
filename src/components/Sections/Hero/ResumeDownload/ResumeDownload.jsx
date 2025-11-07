@@ -2,9 +2,8 @@ import React from "react";
 import { Button } from "../../../Common/Button/Button";
 
 export default function ResumeDownload({
-  // use PUBLIC_URL so it works on GitHub Pages
   url = `${process.env.PUBLIC_URL}/Resume.pdf`,
-  filename = "AnanyaVishwakarma_Resume.pdf",
+  filename = "Resume.pdf",
 }) {
   async function handleDownload(e) {
     e.preventDefault();
