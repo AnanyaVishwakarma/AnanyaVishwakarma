@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/AnanyaVishwakarma/static/css/main.e7ee48b2.css",
+    "main.js": "/AnanyaVishwakarma/static/js/main.6737ca5a.js",
+    "static/media/Profile.png": "/AnanyaVishwakarma/static/media/Profile.337d3d2b85499ac30dc4.png",
+    "index.html": "/AnanyaVishwakarma/index.html",
+    "main.e7ee48b2.css.map": "/AnanyaVishwakarma/static/css/main.e7ee48b2.css.map",
+    "main.6737ca5a.js.map": "/AnanyaVishwakarma/static/js/main.6737ca5a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7ee48b2.css",
+    "static/js/main.6737ca5a.js"
+  ]
+}
