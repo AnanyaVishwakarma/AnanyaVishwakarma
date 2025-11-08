@@ -1,7 +1,7 @@
 import React from 'react';
 import SectionTitle from '../../Common/SectionTitle/SectionTitle';
 import SkillCategory from './SkillCategory/SkillCategory';
-import { Code, Smartphone, Palette, Database } from 'lucide-react';
+import { Code, Smartphone, Wrench } from 'lucide-react'; // Added Wrench icon for "Others"
 import './Skills.css';
 
 const Skills = () => {
@@ -17,9 +17,9 @@ const Skills = () => {
       skills: ["Node.js", "Express.js", "REST APIs"]
     },
     {
-      name: "Database",
-      icon: <Database className="skill-category-icon" />,
-      skills: ["PostgreSQL", "MySQL"]
+      name: "Others",
+      icon: <Wrench className="skill-category-icon" />, // Updated icon
+      skills: ["Java", "Git", "GitHub", "PostgreSQL", "MySQL"] // Added new skills
     }
   ];
 
