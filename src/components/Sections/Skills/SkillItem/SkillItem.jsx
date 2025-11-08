@@ -1,4 +1,5 @@
 import React from 'react';
+import Skills from '../Skills';
 import './SkillItem.css';
 
 const SkillItem = ({ skill, level }) => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import SectionTitle from '../../Common/SectionTitle/SectionTitle';
 import SkillCategory from './SkillCategory/SkillCategory';
-import { Code, Smartphone, Wrench } from 'lucide-react'; // Added Wrench icon for "Others"
+import { Code, Smartphone, Wrench } from 'lucide-react'; 
 import './Skills.css';
 
 const Skills = () => {
@@ -18,8 +18,8 @@ const Skills = () => {
     },
     {
       name: "Others",
-      icon: <Wrench className="skill-category-icon" />, // Updated icon
-      skills: ["Java", "Git", "GitHub", "PostgreSQL", "MySQL"] // Added new skills
+      icon: <Wrench className="skill-category-icon" />,
+      skills: ["Java", "Git", "GitHub", "PostgreSQL", "MySQL"] 
     }
   ];
 

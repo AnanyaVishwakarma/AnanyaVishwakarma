@@ -2,6 +2,7 @@ import React from 'react';
 import Card from '../../../Common/Card/Card';
 import SkillItem from '../SkillItem/SkillItem';
 import './SkillCategory.css';
+import Skills from '../Skills';
 
 const SkillCategory = ({ name, icon, skills }) => {
   return (
