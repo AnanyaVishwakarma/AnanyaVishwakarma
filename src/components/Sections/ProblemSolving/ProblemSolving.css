@@ -47,33 +47,37 @@
 
 /* Grid layout — optimized for minimal content */
 .ps-grid {
+  /* make image ~60% and actions ~40% and center items vertically */
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 60% 40%;
   gap: var(--spacing-6);
-  align-items: center;
+  align-items: center; /* vertical centering */
+  align-content: center;
 }
 
 /* Card (screenshot) */
 .ps-card {
   background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
-  padding: var(--spacing-4);
+  padding: var(--spacing-3);          /* slightly less padding */
   border-radius: var(--radius-xl);
   border: 1px solid rgba(255,255,255,0.02);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;                     /* let image flow naturally */
   box-shadow: var(--shadow-sm);
+  max-width: 100%;
 }
 
 .ps-screenshot {
   width: 100%;
-  max-width: 520px;
+  max-width: 720px;                   /* allow image to be large but controlled */
   border-radius: var(--radius-lg);
   object-fit: cover;
   display: block;
   border: 1px solid var(--border-color);
   transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+  margin: 0 auto;                     /* center within the card area */
+  box-shadow: 0 8px 30px rgba(0,0,0,0.25);
 }
+
 
 .ps-card:hover .ps-screenshot,
 .ps-card:focus-within .ps-screenshot {
@@ -89,15 +93,22 @@
   text-align: center;
 }
 
-/* Actions column — compact and centered */
 .ps-actions {
   display: flex;
   flex-direction: column;
   gap: var(--spacing-4);
   padding: var(--spacing-2);
-  align-items: flex-start;
+  justify-content: center;            /* vertically center button/badges */
+  align-items: flex-start;            /* keep items aligned left on desktop */
+}
+.ps-actions.centered {
+  align-items: center;
+  text-align: center;
 }
 
+.ps-actions.centered .ps-buttons {
+  justify-content: center;
+}
 /* Buttons */
 .ps-buttons {
   display: flex;
@@ -168,11 +179,12 @@
 
   .ps-card {
     order: 1;
+    padding: var(--spacing-4);
   }
 
   .ps-actions {
     order: 2;
-    align-items: center; /* better mobile alignment */
+    align-items: center;               /* center actions on mobile */
     text-align: center;
   }
 
