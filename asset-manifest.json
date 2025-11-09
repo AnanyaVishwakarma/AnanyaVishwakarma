@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/AnanyaVishwakarma/static/css/main.d0c532a5.css",
+    "main.css": "/AnanyaVishwakarma/static/css/main.e4023051.css",
     "main.js": "/AnanyaVishwakarma/static/js/main.3e8d8f19.js",
     "static/media/Profile.png": "/AnanyaVishwakarma/static/media/Profile.337d3d2b85499ac30dc4.png",
     "index.html": "/AnanyaVishwakarma/index.html",
-    "main.d0c532a5.css.map": "/AnanyaVishwakarma/static/css/main.d0c532a5.css.map",
+    "main.e4023051.css.map": "/AnanyaVishwakarma/static/css/main.e4023051.css.map",
     "main.3e8d8f19.js.map": "/AnanyaVishwakarma/static/js/main.3e8d8f19.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0c532a5.css",
+    "static/css/main.e4023051.css",
     "static/js/main.3e8d8f19.js"
   ]
 }
