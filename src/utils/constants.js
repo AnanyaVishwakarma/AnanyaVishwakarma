@@ -26,8 +26,8 @@ export const PROJECT = [
     description:  "A productivity timer with task management built using HTML, CSS, and JavaScript. Helps users manage work sessions and breaks effectively.",
     technologies: ["React", "TailwindCSS"],
     image: "pomodoro.png",
-    liveUrl: null,
-    githubUrl: "https://ananyavishwakarma.github.io/Pomodoro/",
+    liveUrl: "https://ananyavishwakarma.github.io/Pomodoro/",
+    githubUrl: "https://github.com/AnanyaVishwakarma/Pomodoro",
     featured: true,
     
 },
@@ -37,8 +37,8 @@ export const PROJECT = [
     description: "This is a clean and intuitive task management application built entirely with front-end technologies. The goal was to create a fast, user-friendly single-page application(SPA) to help manage daily tasks directly in the browser.", 
     technologies: ["HTML", "CSS", "JavaScript"],
     image: "todoApp.png",
-    liveUrl: null,
-    githubUrl: "https://ananyavishwakarma.github.io/Todo-App/",
+    liveUrl: "https://ananyavishwakarma.github.io/Todo-App/",
+    githubUrl: "https://github.com/AnanyaVishwakarma/Todo-App",
     featured: true,
 },
 {
