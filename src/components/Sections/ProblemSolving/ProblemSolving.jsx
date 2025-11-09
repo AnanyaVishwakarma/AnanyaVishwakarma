@@ -1,17 +1,24 @@
-import React from 'react';
-import './ProblemSolving.css';
-import SectionTitle from '../../Common/SectionTitle/SectionTitle';
+import React from "react";
+import "./ProblemSolving.css";
+import SectionTitle from "../../Common/SectionTitle/SectionTitle";
 
-
-const ProblemSolving = ({ username = 'ananya707', solvedCount = 130 }) => {
+const ProblemSolving = ({ username = "ananya707", solvedCount = 130 }) => {
   return (
-   <section id="problem-solving" className="problem-solving" aria-labelledby="ps-heading">
+    <section
+      id="problem-solving"
+      className="problem-solving"
+      aria-labelledby="ps-heading"
+    >
       <div className="ps-container">
         <header className="ps-header">
+          <SectionTitle level={2}>
+            Problem Solving & Competitive Coding
+          </SectionTitle>
           <p className="ps-sub">
-            <SectionTitle level={2}>Problem Solving & Competitive Coding</SectionTitle>
-            Strengthening algorithmic thinking through regular practice. Currently
-            <span className="ps-highlight"> {solvedCount}+ problems</span> solved on LeetCode.
+            Strengthening algorithmic thinking through regular practice.
+            Currently
+            <span className="ps-highlight"> {solvedCount}+ problems</span>{" "}
+            solved on LeetCode.
           </p>
         </header>
 
@@ -23,7 +30,9 @@ const ProblemSolving = ({ username = 'ananya707', solvedCount = 130 }) => {
               className="ps-screenshot"
               loading="lazy"
             />
-            <figcaption className="ps-caption">LeetCode | {solvedCount}+ solved</figcaption>
+            <figcaption className="ps-caption">
+              LeetCode | {solvedCount}+ solved
+            </figcaption>
           </figure>
 
           <div className="ps-actions">
