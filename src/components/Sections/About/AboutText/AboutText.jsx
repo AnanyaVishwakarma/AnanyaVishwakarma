@@ -22,12 +22,6 @@ const AboutText = () => {
         and generate data-driven insights — making projects smarter, faster, and more adaptive. 
         I see AI not as a shortcut, but as a powerful collaborator that amplifies creativity and efficiency.
       </p>
-
-      <p className="about-text__paragraph">
-        Beyond coding, I’m deeply interested in software design principles, system optimization, and collaborating 
-        with teams to bring complex ideas to life. I believe in continuous learning, open communication, and the power 
-        of smart work — combining human problem-solving with AI innovation — to deliver reliable, high-quality software products.
-      </p>
     </div>
   );
 };
