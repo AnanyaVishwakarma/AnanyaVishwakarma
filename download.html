@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Downloading Resume...</title>
+    <script>
+        window.onload = function() {
+            const a = document.createElement("a");
+            a.href = 'Resume.pdf';
+            a.download = 'Ananya_Resume.pdf';
+            document.body.appendChild(a);
+            a.click();
+            a.remove();
+            setTimeout(() => window.location.href = "./", 1500);
+        };
+    </script>
+</head>
+<bodystyle="font-family: sans-serif; text-align: center; padding-top: 50px;">
+  <h2>Preparing your download...</h2>
+  <p>If it doesn't start automatically, <a href="Resume.pdf" download>click here</a>.</p>
+    
+</body>
+</html>
