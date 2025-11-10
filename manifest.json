@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Ananya",
+  "name": "Ananya Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,18 +8,21 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "icons/icon-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "icons/icon-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#8b5cf6",
+  "background_color": "#0f172a",
+  "description": "Personal portfolio website of Ananya — web developer skilled in React, Java, and problem solving.",
+  "orientation": "portrait-primary",
+  "lang": "en"
 }
